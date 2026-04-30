@@ -1,0 +1,48 @@
+========================================
+  ALL-IN-ONE AUTOMATION - HOW TO USE
+========================================
+
+1. REQUIREMENTS
+   - Install AutoHotkey v1 from https://www.autohotkey.com/
+   - Download AllInOne.ahk
+
+2. START THE SCRIPT
+   - RIGHT-CLICK AllInOne.ahk and select "Run as Administrator"
+   - IMPORTANT: You MUST run as Administrator for the script to work
+     properly in games and most applications. Without admin rights,
+     the script inputs may be blocked or ignored.
+   - A green "H" icon will appear in your system tray (bottom-right)
+   - If you want it to always run as admin, right-click AllInOne.ahk >
+     Properties > Compatibility > check "Run this program as an administrator"
+
+3. HOTKEYS (press to toggle ON/OFF)
+   -----------------------------------------------
+   F1  = Spam F + Space + Left Click (Genshin skip)
+   F2  = Fast Left Click Spam
+   F3  = Left Click every 30 seconds
+   F4  = Hold W (Fortnite AFK)
+   F5  = Hold W + Q/E every 10 seconds
+   F6  = Subtle W movement every 1 min (Fortnite anti-AFK)
+   F7  = Spam E key
+   F8  = Mouse movement (Spotify anti-idle)
+   F9  = Slow Left Click every 1 second
+   F10 = Spam Spacebar
+   -----------------------------------------------
+   F12 = STOP ALL active modes at once
+   Alt+X = Exit script entirely
+
+4. HOW TOGGLE WORKS
+   - Press the hotkey ONCE to start that mode
+   - Press the SAME hotkey again to stop it
+   - A ToolTip will appear on screen showing which mode is ON or OFF
+   - You can run MULTIPLE modes at the same time
+
+5. STOP EVERYTHING
+   - Press F12 to stop all active modes instantly
+   - Or right-click the green "H" tray icon and select Exit
+
+6. TIPS
+   - The script runs in the background, no window stays open
+   - ALWAYS run as Administrator — most games and apps will ignore
+     simulated keypresses/clicks if the script does not have admin rights
+   - You can edit the .ahk file in Notepad to change speeds (look for the delay numbers)
